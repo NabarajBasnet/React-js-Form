@@ -1,0 +1,75 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: sandybrown; /* Optional: Add a background color to the body */
+}
+
+.maincontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.7); /* Optional: Add a subtle box shadow */
+}
+
+.form-container ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0; /* Remove default padding on the ul element */
+}
+
+.form-container ul li {
+  margin: 10px;
+}
+
+.form-container ul li input {
+  border: none;
+  border-radius: 4px;
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-container ul li button {
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(235, 90, 6);
+  cursor: pointer; /* Add a pointer cursor to the button */
+  transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+}
+
+.form-container ul li button:hover {
+  background-color: #1a8f1a; /* Change background color on hover */
+}
+
+.form-container ul li input::placeholder {
+  color: blueviolet;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+
+.form-container ul li {
+    color: rgb(255, 140, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;   
+    font-weight: bold;
+}
+.form-container ul li .createaccount{
+    cursor: pointer;
+    text-decoration: underline;
+    color: rgb(251, 255, 0);
+}
